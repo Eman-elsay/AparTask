@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-21T13:03:03 AST" name="Default suite" finished-at="2023-10-21T13:03:46 AST" duration-ms="42570">
+    <groups>
+    </groups>
+    <test started-at="2023-10-21T13:03:03 AST" name="Default test" finished-at="2023-10-21T13:03:46 AST" duration-ms="42570">
+      <class name="tests.Validate_Packages">
+        <test-method is-config="true" signature="Start_Driver(java.lang.String)[pri:0, instance:tests.Validate_Packages@503ecb24]" started-at="2023-10-21T13:02:52 AST" name="Start_Driver" finished-at="2023-10-21T13:03:03 AST" duration-ms="11083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start_Driver -->
+        <test-method signature="validate_Packages_KSA()[pri:1, instance:tests.Validate_Packages@503ecb24]" started-at="2023-10-21T13:03:03 AST" name="validate_Packages_KSA" finished-at="2023-10-21T13:03:33 AST" duration-ms="29900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Packages_KSA -->
+        <test-method signature="validate_Packages_Kuwait()[pri:2, instance:tests.Validate_Packages@503ecb24]" started-at="2023-10-21T13:03:33 AST" name="validate_Packages_Kuwait" finished-at="2023-10-21T13:03:38 AST" duration-ms="4978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Packages_Kuwait -->
+        <test-method signature="validate_Packages_Bahrain()[pri:3, instance:tests.Validate_Packages@503ecb24]" started-at="2023-10-21T13:03:38 AST" name="validate_Packages_Bahrain" finished-at="2023-10-21T13:03:46 AST" duration-ms="7444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Packages_Bahrain -->
+        <test-method is-config="true" signature="Stop_Driver()[pri:0, instance:tests.Validate_Packages@503ecb24]" started-at="2023-10-21T13:03:46 AST" name="Stop_Driver" finished-at="2023-10-21T13:03:46 AST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Stop_Driver -->
+      </class> <!-- tests.Validate_Packages -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
